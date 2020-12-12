@@ -1,11 +1,22 @@
 module.exports = {
+  siteMetadata: {
+    title: "Rajkumar Balakrishnan",
+    description: "Rajkumar Balakrishnan",
+  },
   plugins: [
     "gatsby-plugin-emotion",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
-    "gatsby-plugin-manifest",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `favicon`,
+        start_url: `/`,
+        icon: `src/images/favicon.ico`,
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
