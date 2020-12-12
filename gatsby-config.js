@@ -9,14 +9,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `favicon`,
-        start_url: `/`,
-        icon: `src/images/favicon.ico`,
-      },
-    },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

@@ -5,9 +5,12 @@ export default () => {
   return (
     <Layout>
       <p>
-        Hey <span>👋🏼</span>&nbsp;&nbsp;I'm Raj. This is my space on the
-        internet. I love to travel, occasionally read books and listen to lots
-        of music.
+        Hey{" "}
+        <span role="img" aria-label="wave">
+          👋🏼
+        </span>
+        &nbsp;&nbsp;I'm Raj. This is my space on the internet. I love to travel,
+        occasionally read books and listen to lots of music.
       </p>
       <br />
       <p>
